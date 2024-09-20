@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота</title>
+    <!-- Підключення CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Заголовок -->
+    <header>
+        <h1>Заголовок сторінки</h1>
+    </header>
+
+    <!-- Основний контент -->
+    <main>
+        <!-- Блок контенту -->
+        <section class="main-content">
+            <h2>Основний блок контенту</h2>
+            <p>Це основний текст для демонстрації структури сторінки.</p>
+        </section>
+
+        <!-- Бічна панель -->
+        <aside class="sidebar">
+            <h3>Бічний блок</h3>
+            <p>Тут розташована бічна панель з додатковим контентом.</p>
+        </aside>
+    </main>
+
+    <!-- Футер -->
+    <footer>
+        <p>Автор: Ваше Прізвище</p>
+    </footer>
+
+</body>
+</html>

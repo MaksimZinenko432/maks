@@ -1,0 +1,52 @@
+/* Основні стилі для сторінки */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Заголовок */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Основний контент */
+main {
+    display: flex;
+    padding: 20px;
+}
+
+/* Блок основного контенту */
+.main-content {
+    flex: 3;
+    background-color: #eaeaea;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+/* Блок бічної панелі */
+.sidebar {
+    flex: 1;
+    background-color: #ccc;
+    padding: 20px;
+}
+
+/* Футер */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
